@@ -10,8 +10,6 @@ This is the official website for "Learning to See in the Hazy Rain via Disentang
 - Scenes: **traffic** and **drone**, Tasks: **Single image de-raining** and **object detection**
 - If you are interested in de-raining, please refer to [our paper] or [our github project](https://github.com/brightyoun/Rain-VV).
 
-![Examples of DHD](imgs/tits-007.jpg)
-
 ## Table of Contents
 0. [Abstract](#0)
 1. [Rain-VV Dataset](#1)  
@@ -36,7 +34,8 @@ Image de-raining is an important task in many robot vision applications since ra
 
 
 ## 1. Rain-VV Dataset <a name="1"></a>
-
+![Examples of Rain-VV](img/ral_supp_001.jpg)
+![Examples of Rain-VV](img/ral_supp_002.jpg)
 The Rain-VV dataset is a newly collected dataset. The dataset totally contains 40 hours of diverse high quality samples collected in the Gwangju, Korea. For the aerial image of navigating drone, we collect 3,108 images (1,008 images for training and 2,000 images for testing) using DJI Air 2S drone. For the frontal image of moving vehicle, we collect 2,000 images (1,000 images for training and 1,000 images for testing) using Hyundai NF Sonata 2014.
 
 ### Annotations format
