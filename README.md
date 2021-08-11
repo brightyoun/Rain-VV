@@ -100,6 +100,7 @@ To see full dataset, here's the Email and request Dataset [contact us](brightyou
 
 ## 3. Computational Cost Analysis <a name="3"></a>
 ![Examples of Table3](img/table_003.jpg)
+
 Table 5 reports the computational cost of our proposed framework and some state-of-the-art methods. From the results, we can find that our method has less computational overload. Taking their hardware-friendly ability into account, it is appealing to still maintain de-raining and perception performance when facing foggy and rainy weather images. In the inference phase, our model achieves 21.6 fps (T=2: stages2) and 5.9 fps (T=6: stages 6) on one NVIDIA Jetson Xavier when input with a resolution of 1024 \times 512.
 
 ## 4. Qualitative Results <a name="4"></a>
