@@ -125,6 +125,8 @@ In some cases, there are results that show better performance than when $T=6$. H
 * Result 6
 ![](img/ral_supp_008.jpg)
 
+In Result 1 to Result 6, we present additional qualitative experimental results on single image de-raining on the synthetic Rain-VV dataset. The results demonstrate that our method can generate visually compelling sharp images that are competitive to state-of-the-art supervised method [PReNet](https://openaccess.thecvf.com/content_CVPR_2019/papers/Ren_Progressive_Image_Deraining_Networks_A_Better_and_Simpler_Baseline_CVPR_2019_paper.pdf). For fair comparisons, we retrain all the methods on our Rain-VV training set.
+
 ## 6. Citation <a name="6"></a>
 
 If this project help your research, please consider to cite our github page.
