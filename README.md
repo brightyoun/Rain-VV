@@ -103,23 +103,10 @@ To see full dataset, here's the Email and request Dataset [contact us](brightyou
 
 Table 5 reports the computational cost of our proposed framework and some state-of-the-art methods. From the results, we can find that our method has less computational overload. Taking their hardware-friendly ability into account, it is appealing to still maintain de-raining and perception performance when facing foggy and rainy weather images. In the inference phase, our model achieves 21.6 fps (T=2: stages2) and 5.9 fps (T=6: stages 6) on one NVIDIA Jetson Xavier when input with a resolution of 1024 \times 512.
 
-## 4. Qualitative Results <a name="4"></a>
+## 4. Ablation Study Regarding Recursive Stages <a name="4"></a>
+![Examples of Table2](img/table_002.jpg)
 
-#### 4.1 Ablation Study <a name="4.1"></a>
-
-* Ablation Study
-![Examples of DHD](imgs/tits-006.jpg)
-
-#### 4.2 Comparisons with SOTA <a name="4.2"></a>
-* Results on Various Benchmarks
-![Examples of DHD](imgs/eccv20_fig05.png)
-
-* Results on LTSP-110K
-<p align='left'><img src='/imgs/001.gif' height="400px"/></p>
-<p align='center'><img src='/imgs/002.gif' height="400px"/></p>
-<p align='right'><img src='/imgs/003.gif' height="400px"/></p>
-![Examples of DHD](imgs/supp_002.png)
-![Examples of DHD](imgs/supp_003.png)
+At first, we set $T = 6$ for recursive stages of the encoder. In this section, we present a supplementary quantitative results why the stage is set to 6. Table 6 indicates their performance of de-raining performance on the Rain800, Rain1400, and Rain-VV benchmark. These results show that using six recursive stages show the outperforming performance.
 
 ## 5. Citation <a name="5"></a>
 
