@@ -4,6 +4,7 @@
 #### Younkwan Lee, Hyeongjun Yoo, Jongmin Yu, Moongu Jeon
 
 This is the official website for "Learning to See in the Hazy Rain via Disentangled Representation (submitted to IEEE RA-L)", which is a newly built disentanglement framework for single image de-raining.
+[](img/ral_enhance_002.jpg)
 
 - Rain-VV Dataset
 - Scenes: **traffic** and **drone**, Tasks: **Single image de-raining** and **object detection**
