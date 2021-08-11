@@ -108,14 +108,14 @@ Table 5 reports the computational cost of our proposed framework and some state-
 
 At first, we set $T = 6$ for recursive stages of the encoder. In this section, we present a supplementary quantitative results why the stage is set to 6. Table 6 indicates their performance of de-raining performance on the Rain800, Rain1400, and Rain-VV benchmark. These results show that using six recursive stages show the outperforming performance.
 
-## 5. Citation <a name="5"></a>
-
-If this project help your research, please consider to cite our github page.
-
-## 6. Evaluation on the test set <a name="6"></a>
+## 5. Additional Qualitative Experimental Results <a name="5"></a>
 
 Ablation studies can be conducted on the validation set.
 If you would like to evaluate your model on the test set, you can send us (brightyoun@gist.ac.kr) your detection results in the `json` format.
+
+## 6. Citation <a name="6"></a>
+
+If this project help your research, please consider to cite our github page.
 
 ## 7. Contact <a name="7"></a>
 
