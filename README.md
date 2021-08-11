@@ -7,7 +7,7 @@ This is the official website for "Learning to See in the Hazy Rain via Disentang
 ![](img/ral_enhance_002.jpg)
 
 - Rain-VV Dataset
-- Scenes: **traffic** and **drone**, Tasks: **Single image de-raining** and **object detection**
+- Scenes: **traffic**, **Driving** and **drone**, Tasks: **Single image de-raining** and **object detection**
 - If you are interested in de-raining, please refer to [our paper] or [our github project](https://github.com/brightyoun/Rain-VV).
 
 ## Table of Contents
