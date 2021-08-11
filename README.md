@@ -13,7 +13,7 @@ This is the official website for "Learning to See in the Hazy Rain via Disentang
 ## Table of Contents
 0. [Abstract](#0)
 1. [Rain-VV Dataset](#1)  
-2. [License Plate Detection Benchmarks](#2)  
+2. [Network Architecture](#2)  
    2.1 [LPST-110K Sample](#2.1)  
    2.2 [Full dataset](#2.2)   
 3. [Benchmark](#3)  
@@ -50,6 +50,7 @@ path,x1,y1,x2,y2,class_name
 ## 2. Network Architecture <a name="2"></a>
 
 In order to learn the shared and biased representation, we propose a new recursive network-like encoder. The architecture of the encoder $E^{sh}$ and $E^{bi}$ is shown in Table 1. For recursive setting, we set $T = 6$.
+![Examples of Table](img/table_001.jpg)
 
 
 #### 2.1 LPST-110K Sample <a name="2.1"></a>
