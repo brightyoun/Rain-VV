@@ -1,6 +1,6 @@
 # Rain-VV
 
-![Examples of DHD](imgs/tits-002.jpg)
+![Examples of DHD](imgs/ral_enhance_003.jpg)
 #### Younkwan Lee, Hyeongjun Yoo, Jongmin Yu, Moongu Jeon
 
 This is the official website for "Learning to See in the Hazy Rain via Disentangled Representation (submitted to IEEE RA-L)", which is a newly built disentanglement framework for single image de-raining.
