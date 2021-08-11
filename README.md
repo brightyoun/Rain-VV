@@ -112,8 +112,8 @@ In some cases, there are results that show better performance than when $T=6$. H
 
 ## 5. Additional Qualitative Experimental Results <a name="5"></a>
 
-Ablation studies can be conducted on the validation set.
-If you would like to evaluate your model on the test set, you can send us (brightyoun@gist.ac.kr) your detection results in the `json` format.
+* Result 1
+* ![](img/ral_enhance_003.jpg)
 
 ## 6. Citation <a name="6"></a>
 
