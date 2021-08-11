@@ -113,17 +113,17 @@ In some cases, there are results that show better performance than when $T=6$. H
 ## 5. Additional Qualitative Experimental Results <a name="5"></a>
 
 * Result 1
-* ![](img/ral_supp_003.jpg)
+![](img/ral_supp_003.jpg)
 * Result 2
-* ![](img/ral_supp_004.jpg)
+![](img/ral_supp_004.jpg)
 * Result 3
-* ![](img/ral_supp_005.jpg)
+![](img/ral_supp_005.jpg)
 * Result 4
-* ![](img/ral_supp_006.jpg)
+![](img/ral_supp_006.jpg)
 * Result 5
-* ![](img/ral_supp_007.jpg)
+![](img/ral_supp_007.jpg)
 * Result 6
-* ![](img/ral_supp_008.jpg)
+![](img/ral_supp_008.jpg)
 
 ## 6. Citation <a name="6"></a>
 
