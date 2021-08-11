@@ -108,6 +108,8 @@ Table 5 reports the computational cost of our proposed framework and some state-
 
 At first, we set $T = 6$ for recursive stages of the encoder. In this section, we present a supplementary quantitative results why the stage is set to 6. Table 6 indicates their performance of de-raining performance on the Rain800, Rain1400, and Rain-VV benchmark. These results show that using six recursive stages show the outperforming performance.
 
+In some cases, there are results that show better performance than when $T=6$. However, in general, when $T=6$, the performance is excellent, and when $T$ increases, the runtime of the proposed model is exponentially slow. Therefore, we generally adopt $T=6$, which shows a reasonable execution time while expressing excellent performance.
+
 ## 5. Additional Qualitative Experimental Results <a name="5"></a>
 
 Ablation studies can be conducted on the validation set.
