@@ -43,7 +43,7 @@ path,x1,y1,x2,y2,class_name
 ## 2. Network Architecture <a name="2"></a>
 
 In order to learn the shared and biased representation, we propose a new recursive network-like encoder. The architecture of the encoder $E^{sh}$ and $E^{bi}$ is shown in Table 1. For recursive setting, we set $T = 6$.
-![Examples of Table](img/table_001.jpg)
+![Examples of Table1](img/table_001.jpg)
 
 
 #### 2.1 LPST-110K Sample <a name="2.1"></a>
@@ -98,95 +98,9 @@ To see full dataset, here's the Email and request Dataset [contact us](brightyou
   [cocoapi](https://github.com/cocodataset/cocoapi)
 
 
-## 3. License Plate Detection Results on Benchmarks <a name="4"></a>
-
-#### 3.1 AOLP Dataset <a name="3.1"></a>
-
-* Results on AOLP
-
-  |              | :AOLP         |           |              |           |              |           : |
-  | method       | AC Precision | AC Recall | LE Precision | LE Recall | RP Precision | RP Recall  |
-  | :----------- | :----------: | :-------: | :----------: | :-------: | :----------: | :--------: |
-  | [Hsu et al. (T-VT, 2013)](https://ieeexplore.ieee.org/abstract/document/6339122/)         | 91.00        |  96.00    | 91.00        |  95.00    |  91.00       | 94.00      |
-  | [Li et al. (Arxiv, 2016)](https://arxiv.org/abs/1601.05610)          | 98.53        |  98.38    | 97.75        |  97.62    |  95.28       | 95.58      |
-  | [Selmi et al. (ICDAR, 2017)](https://ieeexplore.ieee.org/abstract/document/8270118)       | 92.60        |  96.80    | 93.50        |  93.30    |  92.90       | 96.20      |
-  | [Rafique et al. (Soft Computing, 2018)](https://link.springer.com/article/10.1007/s00500-017-2696-2) | - |  98.09    | -            |  93.92    |  -           | 89.03      |
-  | [Xie et al. (T-ITS, 2018)](https://ieeexplore.ieee.org/abstract/document/8253610)    | 99.51        |  99.51    | 99.43        |  **99.43**    |  99.46       | 99.46      |
-  | [Li et al. (T-ITS, 2018)](https://ieeexplore.ieee.org/abstract/document/8424450)         | -            |  99.12    | -            |  99.08    |  -           | 98.20      |
-  | [Bjorklund et al. (PR, 2019)](https://www.sciencedirect.com/science/article/pii/S0031320319301475)  | **100**  |  99.30  | **99.80** | 99.00 |  **99.80**  | **99.00**      |
-  | [Selmi et al. (PRL, 2020)](https://www.sciencedirect.com/science/article/pii/S0167865519303216) | 99.30  |  99.40  | 99.20   |  99.20    |  98.90       | 98.80      |
-  | **Ours**     | **99.71**        |  **99.80**    | **99.80**        |  **99.32**    |  **99.71**       | **98.79**      |
-  
-
-#### 3.2 PKU Dataset <a name="3.2"></a>
-
-* Results on validation (Accuracy)
-
-  | method                 | G1        | G2        |  G3       | G4        | G5        | Average   |
-  | :--------------------- | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
-  | RetinaNet (Baseline)   | 96.67     | 97.29     | 96.77     | 96.68     | 95.34     | 96.34     |
-  | [Zheng et al. (PRL, 2005)](https://www.sciencedirect.com/science/article/pii/S0167865519303216)  | 94.93     | 95.71     | 91.91     | 69.58     | 67.61     | 79.47     |
-  | [Zhao et al. (ITSC, 2011)](https://ieeexplore.ieee.org/abstract/document/6082854/)                  | 95.18     | 95.71     | 95.13     | 69.93     | 68.10     | 80.29     |
-  | [Zhou et al. (T-IP, 2012)](https://ieeexplore.ieee.org/abstract/document/6200342)                  | 95.43     | 97.85     | 94.21     | 81.21     | 82.37     | 90.22     |
-  | [Li et al. (T-ITS, 2013)](https://ieeexplore.ieee.org/abstract/document/6547735)                   | 98.89     | 98.42     | 95.83     | 81.17     | 83.31     | 91.52     |
-  | [Yuan et al. (T-IP, 2016)](https://ieeexplore.ieee.org/abstract/document/7752971)                 | 98.76     | 98.42     | 97.72     | 96.23     | 97.32     | 97.69     |
-  | [Li et al. (T-ITS, 2018)](https://ieeexplore.ieee.org/abstract/document/8424450)                   | **99.88** | **99.86** | 99.60     | **100.0** | 99.31     | 99.73     |
-  | [Bjorklund et al. (PR, 2019)](https://www.sciencedirect.com/science/article/pii/S0031320319301475) | 98.77     | 99.00     | 98.92     | 97.74     | -         | 98.61     |
-  | [Selmi et al. (PRL, 2020)](https://www.sciencedirect.com/science/article/pii/S0167865519303216)    | 99.50     | 99.40     | 99.40     | 99.60     | 99.10     | 99.40     |
-  | **Ours**               | **99.88** | **99.86** | **99.87** | 99.65     | **99.58** | **99.74** |
-  
-
-#### 3.3 UFPR Dataset <a name="3.3"></a>
-
-* Results on validation (Recall)
-
-  | method               | UFPR  |
-  | :------------------- | :---: | 
-  | RetinaNet (Baseline) | 97.22 | 
-  | [Laroca et al. (IJCNN, 2018)](https://ieeexplore.ieee.org/abstract/document/8489629)             | 98.33 | 
-  | [Laroca et al. (Arxiv, 2019)](https://arxiv.org/abs/1909.01754) | 98.67 | 
-  | **Ours** | **99.17** | 
-
-#### 3.4 CCPD Dataset <a name="3.4"></a>
-
-* Results on validation (Precision)
-
-  | method               | UFPR  |
-  | :------------------- | :---: | 
-  | RetinaNet (Baseline) | 94.10 | 
-  | Faster R-CNN         | 92.90 | 
-  | SSD300               | 94.40 |  
-  | YOLO9000             | 93.10 |  
-  | [Wang et al. (T-IFS, 2007)](https://ieeexplore.ieee.org/abstract/document/4202577/)                | 47.20 |  
-  | [Li et al. (T-ITS, 2018)](https://ieeexplore.ieee.org/abstract/document/8424450)                  | 94.20 |  
-  | [Xu et al. (ECCV, 2018)](https://openaccess.thecvf.com/content_ECCV_2018/html/Zhenbo_Xu_Towards_End-to-End_License_ECCV_2018_paper.html)   | 94.50 | 
-  | **Ours**             | **96.10** | 
-
-#### 3.5 LTSP-110K Dataset <a name="3.5"></a>
-
-* LP Detection Results on validation (AP)
-
-  | method               | AP       | AP75     |
-  | :------------------- | :------: | :------: | 
-  | Faster R-CNN         | .781     | .578     | 
-  | SSD300               | .740     | .639     |
-  | YOLO9000             | .729     | .625     |
-  | RetinaNet (Baseline) | .863     | .769     |
-  | + IF loss            | .905     | .885     |
-  | + GRL                | .906     | .890     |
-  | + LRM (**Ours**)     | **.911** | **.915** |
-
-* non-LP Detection Results on validation (Precision, Recall)
-
-  | method               | Precision | Recall   |
-  | :------------------- | :-------: | :------: | 
-  | Faster R-CNN         | 31.1      | 33.8     | 
-  | SSD300               | 29.8      | 29.2     |
-  | YOLO9000             | 30.5      | 23.9     |
-  | RetinaNet (Baseline) | 37.3      | 32.1     |
-  | + IF loss            | **19.1**  | 21.1     |
-  | + GRL                | 21.5      | 21.0     |
-  | + LRM (**Ours**)     | 20.2      | **15.3** |
+## 3. Computational Cost Analysis <a name="3"></a>
+![Examples of Table3](img/table_003.jpg)
+Table 5 reports the computational cost of our proposed framework and some state-of-the-art methods. From the results, we can find that our method has less computational overload. Taking their hardware-friendly ability into account, it is appealing to still maintain de-raining and perception performance when facing foggy and rainy weather images. In the inference phase, our model achieves 21.6 fps (T=2: stages2) and 5.9 fps (T=6: stages 6) on one NVIDIA Jetson Xavier when input with a resolution of 1024 \times 512.
 
 ## 4. Qualitative Results <a name="4"></a>
 
